@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "mandala";
+  src: url("fuentes/mandala.otf");
+}
+
+p1 {
+  font-family: "mandala", cursive;
+ font-size: 110%;
+}

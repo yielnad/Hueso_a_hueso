@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="fuentes.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a> 
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+ 
+    <script src='js/device.min.js'></script> 
+    <style>
+.containers {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#para1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  line-height: 40px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#para2 {
+  text-align: center;
+  display: block;
+  font-family: 'Yesteryear', cursive;
+  font-size: 250%;
+  line-height: 40px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.containers:hover .overlay {
+  width: 50%;
+  left: 50%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.containers1 {
+  position: relative;
+  width: 100%;
+}
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1{
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.containers1:hover .overlay1 {
+  width: 50%;
+  left: 0%;
+}
+
+.text1 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+
+      <img src="images/portada.png" alt="Mountain View" style="width:100%;height:100%;">
+                <!-- PARA PODER AÑADIR MÄS INFORMACIÓN
+                div data-thumb="images/slide02_thumb.jpg" data-src="images/slide02.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="images/slide03_thumb.jpg" data-src="images/slide03.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand wow fadeIn">
+                <h1 class="brand_name">
+                    <a href="./">Cafe</a>
+                </h1-->
+                
+       
+        
+       
+
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section class="well">
+            <div class="container">
+                <h2><em>Bienvenidos</em>a nuestra página</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+                <div class="containers">
+                     <img src="images/luna3.png" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div><a href="https://www.linkedin.com/in/luna-lorenzo-v%C3%A9lez-8771a7111/?ppe=1"><p id="para2"> <br><br>LUNA  LORENZO </p><br>
+                        <p id="para1">¿Por qué quedarse en la piel? <br> La verdad <br> está ahí adentro.</p></div>
+                    </div>    
+                </div>
+                 <div class="containers1">
+                     <img src="images/daniel1.png" alt="Avatar" class="image1">
+                     <div class="overlay1">
+                        <div><a href="https://www.linkedin.com/in/daniel-amigo-casado-a05701bb/?ppe=1"><p id="para2"> <br><br> DANIEL  AMIGO </p><br>
+                        <p id="para1">Educador en biología y nuevas tecnologías. <br> Aficionado a <br> las risas de los niños.</p></div>
+                    </div>    
+                </div>
+                <br>
+                <br>
+            <div class="container">
+                
+                <h2><em>Nuestros</em>conocimientos</h2>
+            </div>            
+            <div class="gallery">
+                <div class="gallery_col-1">
+                    <a data-fancybox-group="gallery" href="images/filogenia.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.96551724137931%;">
+                        <img data-src="images/filogenia.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Filogenia de Carnivoros</em></p>
+                                <p>Hablaremos de las relaciones evolutivas de diferentes tipos de carnivoros</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--PARA PODER PONER MAS IMAGENES
+
+                    a data-fancybox-group="gallery" href="images/nutria.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 74.13793103448276%;">
+                        <img data-src="images/nutria.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Lorem Blandit</em></p>
+                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/iguana.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 94.6551724137931%;">
+                        <img data-src="images/iguana.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Lorem Blandit</em></p>
+                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
+                            </div>
+                        </div>
+                    </a-->
+                </div>
+                <div class="gallery_col-2">
+                    <a data-fancybox-group="gallery" href="images/nutria.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 52.48322147651007%;">
+                        <img data-src="images/nutria.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Hueso a Hueso</em></p>
+                                <p>Miraremos en el interior de los animales para poder entenderlos un poco mejor</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="pag01.html" class="gallery_item thumb lazy-img" style="padding-bottom: 55.97315436241611%;">
+                        <img data-src="images/aligator.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Conservando Huesos</em></p>
+                                <p>Técnicas y métodos para conservar huesos</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!--a data-fancybox-group="gallery" href="images/page-1_img08_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 96.10738255033557%;">
+                        <img data-src="images/page-1_img08.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Lorem Blandit</em></p>
+                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
+                            </div>
+                        </div>
+                    </a-->
+                </div>
+                <div class="gallery_col-3">
+                    <a data-fancybox-group="gallery" href="images/iguana.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
+                        <img data-src="images/iguana.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Al Museo</em></p>
+                                <p>Nos pasaremos por los museos para saber un poco más de las exposiciones de esqueletos.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!--a data-fancybox-group="gallery" href="images/page-1_img10_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 72.23168654173765%;">
+                        <img data-src="images/page-1_img10.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Lorem Blandit</em></p>
+                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/page-1_img11_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
+                        <img data-src="images/page-1_img11.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Lorem Blandit</em></p>
+                                <p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl</p>
+                            </div>
+                        </div>
+                    </a-->
+                </div>
+            </div>
+        </section>
+        <!--section class="parallax parallax1" data-parallax-speed="-0.4">
+            <div class="container">
+                <h2><em>Our </em>Experience</h2>
+                <p class="indents-2">Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci </p>
+                <a href="#" class="btn">View full menu</a>
+            </div>
+        </section>
+        <section class="well well__offset-1 bg-1">
+            <div class="container">
+                <h2><em>Our </em>Cooks</h2>
+                <div class="row row__offset-1">
+                    <div class="grid_4">
+                        <figure>
+                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/page-1_img12.jpg" alt=""></div>
+                            <figcaption>Kevin Grey</figcaption>
+                        </figure>
+                        <h3>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl </h3>
+                        <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
+                    </div>
+                    <div class="grid_4">
+                        <figure>
+                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/page-1_img13.jpg" alt=""></div>
+                            <figcaption>Linda Klein</figcaption>
+                        </figure>
+                        <h3>Oeteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl </h3>
+                        <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
+                    </div>
+                    <div class="grid_4">
+                        <figure>
+                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/page-1_img14.jpg" alt=""></div>
+                            <figcaption>Ann Shelton</figcaption>
+                        </figure>
+                        <h3>Koteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl </h3>
+                        <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
+                    </div>
+                </div>
+                <div class="decoration"><a href="#" class="btn">Read more</a></div>
+            </div>
+        </section>
+        <section class="well well__offset-2">
+            <div class="container center">
+                <h2><em>Make </em>a Reservation</h2>
+                <p class="indents-2">Fnteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol.</p>
+                <address class="address-1">
+                    <dl><dt>Address:</dt> <dd>4578 Marmora Road, Glasgow DA04 89GR</dd></dl>
+                    <p><em>800 2345-6789</em></p>
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <!--footer>
+        <div class="container">
+            <ul class="socials">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-tumblr"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+            </ul>
+            <div class="copyright">© <span id="copyright-year"></span> |
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="tm"><a href="#"><img src="images/TM_logo.png" alt=""></a></div>
+    </footer>
+</div-->
+
+<script src="js/script.js"></script>
+</body>
+</html>
